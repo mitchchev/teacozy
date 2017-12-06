@@ -1,0 +1,124 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 0;
+}
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+}
+header img {
+  margin: auto 0;
+  height: 50px;
+  padding-left: 10px;
+}
+header nav {
+  display: flex;
+  margin: auto 0;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right:10px;
+}
+
+header nav a {
+  text-decoration: underline;
+}
+nav span {
+  padding: 10px;
+}
+
+div.container1 {
+  display: flex;
+  position: relative;
+  top: 69px;
+  background-image: url(../img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container1 .text {
+  background-color: black;
+
+}
+.container2 {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container2 img {
+  height: 200px;
+  width: 300px;
+}
+.tea {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+}
+.tea h4 {
+  margin: 10px auto;
+}
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container3 {
+  position: relative;
+  top: 69px;
+  height: 500px;
+  width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../img-locations-background.jpg);
+}
+.container3 h2 {
+  margin-bottom: 15px;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.square {
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+}
+.square h3,
+.square p {
+  opacity: 1;
+}
+
+footer {
+  position: relative;
+  top: 69px;
+  height: 200px;
+}
+.copyright {
+  position: relative;
+  top: 69px;
+  text-align: left;
+  padding: 5px 20px;
+}
